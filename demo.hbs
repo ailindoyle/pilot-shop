@@ -1,12 +1,12 @@
-{{#each}}
+{{#each products}}
     <div class="col-4">
         <div class="product one">
-            <img class="image" src="{{image}}"/>
+            <img class="image" src="{{this.image}}"/>
         </div>
         <div class="description">
-            <div class="productname">{{name}}</div>
-            <div class="productdesc">{{desc}}</div>
-            <div class="productprice">{{price}}</div>
+            <div class="productname">{{this.name}}</div>
+            <div class="productdesc">{{this.desc}}</div>
+            <div class="productprice">{{this.price}}</div>
         </div>
     </div>
 {{/each}}

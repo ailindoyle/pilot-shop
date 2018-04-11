@@ -1,14 +1,9 @@
 $.get('demo.hbs', function (data) {
-    var source = data
-    var template = Handlebars.compile(source)
+    var template = Handlebars.compile(data)
 
-    var dataToUse = {
-        $.get('products.json', function(data) {
-            dataToUse = data
-        })
-    }
-
-    var html = template(dataToUse)
-    $('.products').append(html)
+    $.get('products.json', function(data) {
+        var html = template(data)
+        $('.products').append(html)
+    })
 
 })
