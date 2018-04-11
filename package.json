@@ -1,0 +1,22 @@
+{
+  "name": "pilot_shop",
+  "version": "1.0.0",
+  "description": "pilot shop sass conversion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ailindoyle/pilot-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ailindoyle/pilot-shop/issues"
+  },
+  "homepage": "https://github.com/ailindoyle/pilot-shop#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
