@@ -4,7 +4,7 @@
 
 body {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	margin: 0px;
+	margin: 0;
 }
 
 .container {
@@ -44,7 +44,7 @@ body {
 }
 
 ul {
-	margin: 0px;
+	margin: 0;
 }
 
 li {
@@ -95,7 +95,7 @@ li {
 
 .plane h1 {
 	font-size: 4rem;
-	margin: 0px;
+	margin: 0;
 }
 
 .plane p {
@@ -106,9 +106,9 @@ li {
 
 .plane button {
 	background-color: transparent;
-	border: #fff;
+	border: #ffffff;
 	border-style: solid;
-	color: #fff;
+	color: #ffffff;
 	font-size: 1.1rem;
 	padding: 11px;
 }
@@ -130,7 +130,7 @@ li {
 	margin: 20px;
 	padding: 40px;
 	float: left;
-	color: #fff;
+	color: #ffffff;
 }
 
 .headsets {
