@@ -87,7 +87,7 @@ li {
 	padding-top: 230px;
 	padding-bottom: 270px;
 	margin: 0 auto;
-	background-image: url("images/plane_hero.jpg");
+	background-image: url("../images/plane_hero.jpg");
 	color: #fff;
 	background-size: cover;
 	text-align: center;
@@ -134,15 +134,15 @@ li {
 }
 
 .headsets {
-	background-image: url("images/headphones.jpg");
+	background-image: url("../images/headphones.jpg");
 }
 
 .tutorials {
-	background-image: url("images/jacket.jpg");
+	background-image: url("../images/jacket.jpg");
 }
 
 .gps {
-	background-image: url("images/satellite.jpg");
+	background-image: url("../images/satellite.jpg");
 }
 
 /*MAIN FEATURED*/
@@ -152,7 +152,7 @@ li {
 	overflow: auto;
 }
 
-.featprod {
+.featuredproducts {
 	font-size: 1.5rem;
 	margin-bottom: 50px;
 }
@@ -162,7 +162,7 @@ li {
 	width: 25%;
 }
 
-.prod {
+.product {
 	width: 270px;
 	height: 335px;
 	background-size: 270px;
@@ -176,57 +176,57 @@ li {
 	margin-bottom: 30px;
 }
 
-.prodname {
+.productname {
 	font-weight: bold;
 	font-size: 0.9rem;
 	margin-top: 10px;
 	height: 35px;
 }
 
-.proddesc {
+.productdesc {
 	font-size: 0.9rem;
 	margin-top: 10px;
 	height: 30px;
 }
 
-.prodprice {
+.productprice {
 	font-size: 1.1rem;
 	color: #80aaff;
 	margin-top: 10px;
 	height: 25px;
 }
 
-.prod.one {
-	background-image: url("images/headset_prodone.png");
+.product.one {
+	background-image: url("../images/headset_prodone.png");
 }
 
-.prod.two {
-	background-image: url("images/flightjacket_prodtwo.png");
+.product.two {
+	background-image: url("../images/flightjacket_prodtwo.png");
 	background-size: 350px;
 }
 
-.prod.three {
-	background-image: url("images/glasses.png");
+.product.three {
+	background-image: url("../images/glasses.png");
 }
 
-.prod.four {
-	background-image: url("images/gps.png");
+.product.four {
+	background-image: url("../images/gps.png");
 }
 
-.prod.five {
-	background-image: url("images/gpstwo.png");
+.product.five {
+	background-image: url("../images/gpstwo.png");
 }
 
-.prod.six {
-	background-image: url("images/glassestwo.png");
+.product.six {
+	background-image: url("../images/glassestwo.png");
 }
 
-.prod.seven {
-	background-image: url("images/headsettwo.png");
+.product.seven {
+	background-image: url("../images/headsettwo.png");
 }
 
-.prod.eight {
-	background-image: url("images/handheld.png");
+.product.eight {
+	background-image: url("../images/handheld.png");
 	background-size: 220px;
 }
 
