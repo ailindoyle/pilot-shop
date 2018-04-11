@@ -1,0 +1,325 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	overflow: auto;
+}
+
+/*HEADER*/
+
+.account {
+	background-color: #f8f8f8;
+	padding-top: 14px;
+	padding-bottom: 10px;
+	color: #b7b7b8;
+	font-size: 0.9rem;
+}
+
+.phone {
+	float: left;
+}
+
+.search {
+	float: right;
+}
+
+.category {
+	background-color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 1.1rem;
+}
+
+.logo {
+	float: left;
+	margin-right: 10px;
+}
+
+ul {
+	margin: 0px;
+}
+
+li {
+	float: right;
+	list-style: none;
+}
+
+.phone:hover {
+	color: #80aaff;
+}
+
+.accmenu li {
+	margin-right: 25px;
+}
+
+.accmenu li:hover {
+	color: #80aaff;
+}
+
+.catmenu li {
+	margin-left: 25px;
+	padding: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fff;
+}
+
+.catmenu li:hover {
+	border-color: #000;
+}
+
+/*SWIPER*/
+
+.swiper {
+	margin: 0 auto;
+	overflow: visible;
+}
+
+.plane {
+	padding-top: 230px;
+	padding-bottom: 270px;
+	margin: 0 auto;
+	background-image: url("images/plane_hero.jpg");
+	color: #fff;
+	background-size: cover;
+	text-align: center;
+}
+
+.plane h1 {
+	font-size: 4rem;
+	margin: 0px;
+}
+
+.plane p {
+	font-size: 1.1rem;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.plane button {
+	background-color: transparent;
+	border: #fff;
+	border-style: solid;
+	color: #fff;
+	font-size: 1.1rem;
+	padding: 11px;
+}
+
+.plane button:hover {
+	background-color: #80aaff;
+	border: #80aaff;
+	border-style: solid;
+}
+
+.offers {
+	position: relative;
+	width: 100%;
+	bottom: 100px;
+}
+
+.col-3 {
+	width: 30%;
+	margin: 20px;
+	padding: 40px;
+	float: left;
+	color: #fff;
+}
+
+.headsets {
+	background-image: url("images/headphones.jpg");
+}
+
+.tutorials {
+	background-image: url("images/jacket.jpg");
+}
+
+.gps {
+	background-image: url("images/satellite.jpg");
+}
+
+/*MAIN FEATURED*/
+
+.featured {
+	text-align: center;
+	overflow: auto;
+}
+
+.featprod {
+	font-size: 1.5rem;
+	margin-bottom: 50px;
+}
+
+.col-4 {
+	float: left;
+	width: 25%;
+}
+
+.prod {
+	width: 270px;
+	height: 335px;
+	background-size: 270px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #f8f8f8;
+}
+
+.description {
+	width: 270px;
+	margin-bottom: 30px;
+}
+
+.prodname {
+	font-weight: bold;
+	font-size: 0.9rem;
+	margin-top: 10px;
+	height: 35px;
+}
+
+.proddesc {
+	font-size: 0.9rem;
+	margin-top: 10px;
+	height: 30px;
+}
+
+.prodprice {
+	font-size: 1.1rem;
+	color: #80aaff;
+	margin-top: 10px;
+	height: 25px;
+}
+
+.prod.one {
+	background-image: url("images/headset_prodone.png");
+}
+
+.prod.two {
+	background-image: url("images/flightjacket_prodtwo.png");
+	background-size: 350px;
+}
+
+.prod.three {
+	background-image: url("images/glasses.png");
+}
+
+.prod.four {
+	background-image: url("images/gps.png");
+}
+
+.prod.five {
+	background-image: url("images/gpstwo.png");
+}
+
+.prod.six {
+	background-image: url("images/glassestwo.png");
+}
+
+.prod.seven {
+	background-image: url("images/headsettwo.png");
+}
+
+.prod.eight {
+	background-image: url("images/handheld.png");
+	background-size: 220px;
+}
+
+.btns {
+	overflow: auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.bck {
+	float: left;
+}
+
+.fwd {
+	float: right;
+}
+
+.btns button {
+	padding: 10px;
+	border-width: 2px;
+	border-color: #80aaff;
+	color: #80aaff;
+}
+
+/*MEDIA QUERIES*/
+
+/*FIRST BREAKPOINT at 1250px*/
+@media screen and (max-width: 1250px) {
+	
+	.container {
+		width: 1000px;
+	}
+	
+	.catmenu li {
+		margin-left: 10px;
+	}
+	
+	.col-3 {
+		width: 30%;
+		margin: 15px;
+		padding: 30px;
+		font-size: 0.8rem;
+	}
+	
+	.col-4 {
+		width: 33%;
+		margin: auto;
+	}
+
+	.offers {
+		position: relative;
+		bottom: 120px;
+	}
+}
+
+/*SECOND BREAKPOINT at 1000px*/
+@media screen and (max-width: 1000px) {
+	
+	.container {
+		width: 800px;
+	}
+	
+	.col-4 {
+		width: 50%;
+	}
+	
+	.catmenu li:not(:last-child) {
+		display: none;
+	}
+	
+	.col-3 {
+		width: 30%;
+		margin: 10px;
+		padding: 25px;
+		font-size: 0.7rem;
+	}
+	
+}
+
+/*THIRD BREAKPOINT*/
+@media screen and (max-width: 800px) {
+	
+	.container {
+		width: 680px;
+	}
+	
+	.accmenu li:not(:last-child) {
+		display: none;
+	}
+	
+	.col-4 {
+		float: left;
+		margin: auto;
+		width: 100%;
+	}
+}
