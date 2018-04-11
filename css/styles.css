@@ -196,39 +196,39 @@ li {
 	height: 25px;
 }
 
-.product.one {
-	background-image: url("../images/headset_prodone.png");
-}
+/*.product.one {*/
+	/*background-image: url("../images/headset_prodone.png");*/
+/*}*/
 
-.product.two {
-	background-image: url("../images/flightjacket_prodtwo.png");
-	background-size: 350px;
-}
+/*.product.two {*/
+	/*background-image: url("../images/flightjacket_prodtwo.png");*/
+	/*background-size: 350px;*/
+/*}*/
 
-.product.three {
-	background-image: url("../images/glasses.png");
-}
+/*.product.three {*/
+	/*background-image: url("../images/glasses.png");*/
+/*}*/
 
-.product.four {
-	background-image: url("../images/gps.png");
-}
+/*.product.four {*/
+	/*background-image: url("../images/gps.png");*/
+/*}*/
 
-.product.five {
-	background-image: url("../images/gpstwo.png");
-}
+/*.product.five {*/
+	/*background-image: url("../images/gpstwo.png");*/
+/*}*/
 
-.product.six {
-	background-image: url("../images/glassestwo.png");
-}
+/*.product.six {*/
+	/*background-image: url("../images/glassestwo.png");*/
+/*}*/
 
-.product.seven {
-	background-image: url("../images/headsettwo.png");
-}
+/*.product.seven {*/
+	/*background-image: url("../images/headsettwo.png");*/
+/*}*/
 
-.product.eight {
-	background-image: url("../images/handheld.png");
-	background-size: 220px;
-}
+/*.product.eight {*/
+	/*background-image: url("../images/handheld.png");*/
+	/*background-size: 220px;*/
+/*}*/
 
 .btns {
 	overflow: auto;
